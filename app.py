@@ -13,13 +13,6 @@ if st.button("click me"):
     st.write("You clicked the button!")
 
 
-# Upload image
-img=st.file_uploader("Upload an image")
-if img:
-    image=Image.open(img)
-    st.image(image,caption="Your uploaded image")
-
-
 
 import streamlit as st
 import numpy as np
