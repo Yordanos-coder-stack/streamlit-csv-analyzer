@@ -13,10 +13,6 @@ if st.button("click me"):
     st.write("You clicked the button!")
 
 
-# slider
-age=st.slider("Select your age",1,100)
-st.write("Your age is:", age)
-
 # Upload image
 img=st.file_uploader("Upload an image")
 if img:
